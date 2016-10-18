@@ -1,5 +1,5 @@
 ##Solution To Assignment
-1. The set of all strings of minimum length make up the root.
+1. The set of all strings of minimum length make up the initial root.
 2. Break the root strings into words and store them in a list(Parent list).
 3. Check if the difference between the set of words in strings of length greater than the minimum length and Parent list is greater than 1.
 4. If the difference is greater than 1 then break it into words and store it in parent list.
