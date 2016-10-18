@@ -2,8 +2,8 @@ import numpy as np
 a=["hello world python","scala world","java python scala hello world","world python hello","world hello","python clojure java world"]
 b = ["hello world python","python world","python"]
 c=["scala world","python closure world scala"]
-root_list=[]
 ans=dict((s,[1,s.split(" "),len(s.split(" "))]) for s in a)# creating the ans dict
+root_list=[]
 all_lengths = list(set(map(lambda x:x[2],ans.values())))
 min_length = np.array(all_lengths).min()# calculating the minimum length
 for key,value in ans.items():
