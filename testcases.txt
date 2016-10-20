@@ -1,0 +1,2 @@
+hello world hello
+python django hello world
