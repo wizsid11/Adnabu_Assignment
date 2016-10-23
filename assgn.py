@@ -12,4 +12,4 @@ for key in key_log:
 				break;
 		if ans[key][0]==1:
 			root_list.add(key)# update root list
-print root_list
+print "\n".join(root_list)
